@@ -81,4 +81,6 @@ group :test do
 end
 
 gem 'cancancan'
-gem 'devise'
+gem 'devise', github: 'heartcombo/devise', branch: 'main'
+
+gem "importmap-rails", "~> 1.1"

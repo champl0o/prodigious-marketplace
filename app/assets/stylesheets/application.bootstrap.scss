@@ -1,2 +1,19 @@
-@import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+$primary: #5eb1bf;
+$secondary: #ADC8FF;
+$success: #94CC08;
+$danger: #FF3E38;
+$warning: #FFC700;
+$info: #00BFFF;
+
+@import 'bootstrap/scss/bootstrap';
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "danger": $danger,
+  "warning": $warning,
+  "info": $info
+);
