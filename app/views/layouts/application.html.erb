@@ -23,6 +23,11 @@
             <%= value %>
       </div>
     <% end %>
+
     <%= yield %>
+
+    <% if current_user %>
+      <%= render "shared/footer" %>
+    <% end %>
   </body>
 </html>
