@@ -1,0 +1,12 @@
+<div class="col-md-3">
+  <div class="card" style="width: 18rem;">
+    <div class="card-header">
+      <img src="<%= @product.attachment_url %>" class="card-img-top" alt="Image">
+    </div>
+    <div class="card-body">
+      <p class="card-text"><%= @product.title %></p>
+      <hr>
+      <p class="card-text"><%= @product.description || 'Empty description' %></p>
+    </div>
+  </div>
+</div>
