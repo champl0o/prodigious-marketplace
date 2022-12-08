@@ -1,0 +1,6 @@
+<% if @products.present? %>
+  <%= render @products %>
+  <%= render(PaginationComponent.new(pagy: @pagy)) %>
+<% else %>
+  <%= render(BlankMessages::BlankMessageComponent.new()) %>
+<% end %>

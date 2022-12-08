@@ -12,6 +12,8 @@
 #  updated_at  :datetime         not null
 #
 class Product < ApplicationRecord
+  include AttachmentUploader::Attachment.new(:attachment)
+
   has_many :cart_products, dependent: :destroy
 
   enum category: { books: 0, paintings: 1, courses: 2 }

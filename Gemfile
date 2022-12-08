@@ -84,6 +84,7 @@ gem 'cancancan'
 gem 'devise', github: 'heartcombo/devise', branch: 'main'
 gem 'money-rails', '~>1.12'
 gem 'pagy', '~> 5.10'
+gem 'shrine', '~> 3.0'
 gem 'view_component'
 
 gem 'importmap-rails', '~> 1.1'
