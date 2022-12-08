@@ -75,12 +75,15 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "capybara"
-  gem "selenium-webdriver"
-  gem "webdrivers"
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'webdrivers'
 end
 
 gem 'cancancan'
 gem 'devise', github: 'heartcombo/devise', branch: 'main'
+gem 'money-rails', '~>1.12'
+gem 'pagy', '~> 5.10'
+gem 'view_component'
 
-gem "importmap-rails", "~> 1.1"
+gem 'importmap-rails', '~> 1.1'
